@@ -2,7 +2,7 @@
 #include <stdlib.h>
 #include <math.h>
 
-int n = 100; //número de particulas 
+int n = 100; //número de particulas, este parámetro debe ser cambiado desde aquí para el número de particulas a probar.
 float particula[4][n];  //:  particula[0][i]: coordenada "x" de la particula i. particula[1][i]: coordenada "y" de la particula i.
                           //:  particula[2][i]: velocidad "x" de la particula i. particula[3][i]: velocidad "y" de la particula i.
 float auxparticula[4][n];
